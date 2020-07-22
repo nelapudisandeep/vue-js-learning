@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator | vue js</title>
+    <!-- custom css! -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Qr Code Generator</h1>
+        <form>
+            <label for="url">Url</label>
+            <input type="url" v-model="url" placeholder="url..." id="url"/>
+            <p>{{url}}</p>
+            <button class="btn" @click.prevent="getQrCode()">Generate</button>
+        </form>
+        <div class="imageContainer">
+            <img v-if="this.src" :src="src" alt="QR code generated!"/>
+        </div>
+
+        <!-- list of images with its base links! from the localstorage!-->
+        <ul class="imageList" v-if="data.length">
+            <h5>Links in LocalStorage</h5>
+            <li v-for="item in data">
+                <a :href="item.src">{{item.url}}</a>
+            </li>
+        </ul>
+    </div>
+    <!-- vue js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- custon js! -->
+    <script src="./index.js"></script>
+</body>
+</html>
