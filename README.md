@@ -1,2 +1,14 @@
 # vue-js-learning
-thiis is my learning path for vue js!
+this is my learning path for vue js!
+
+# Vue js apps lists
+
+# Only front end projects! (may be adding backend as an extension!)
+
+* [x] Todo app!
+
+* [ ] Calcultor app!
+* [ ] weather app! using vuetify!
+* [ ] movie search app using vuex!
+* [ ] single page application using all the knowledge gained!
+
