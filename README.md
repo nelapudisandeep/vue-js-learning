@@ -6,6 +6,7 @@ this is my learning path for vue js!
 # Only front end projects! (may be adding backend as an extension!)
 
 * [x] Todo app!
+* [x] Number quote Machine!
 * [ ] Calculator app!
 * [ ] Quiz app!
 * [ ] weather app! using vuetify!
