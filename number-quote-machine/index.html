@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote machine with vue js| learning vue js!</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body class="bg-danger bg-light">
+    <div id="root" class="container">
+        <div class="card container" id="quoteBox">
+            <div class="card-body">
+        <h3 class="container text-center my-3">Random Quote Machine with Vue JS</h3>
+              <h5 class="card-title text-center">{{quote}}</h5>
+              <p class="card-text text-center">{{author}}</p>
+              <a href="#" class="button btn btn-primary" @click="getTodo()">Get New</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

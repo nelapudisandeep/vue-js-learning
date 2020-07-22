@@ -1,0 +1,18 @@
+html,body{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    display: block;
+    text-align: center;
+}
+
+#quoteBox{
+    padding:0.75rem 1.5rem;
+}
+
+
