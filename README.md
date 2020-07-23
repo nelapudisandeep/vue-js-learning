@@ -7,6 +7,7 @@ this is my learning path for vue js!
 
 * [x] Todo app!
 * [x] Number quote Machine!
+* [x] QR Code generator!
 * [ ] Calculator app!
 * [ ] Quiz app!
 * [ ] weather app! using vuetify!
